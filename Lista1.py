@@ -10,7 +10,6 @@ import numpy as np
 import seaborn as sns
 from statsmodels.stats.proportion import proportion_confint
 from joblib import Parallel, delayed
-
 #Zad1
 df = pd.read_csv('ankieta.csv', encoding='Latin2', sep=";")
 
